@@ -54,3 +54,6 @@ wget https://raw.githubusercontent.com/1N3/Goohak/master/goohak
 echo 'alias trufflehog="/root/.local/bin/trufflehog' >> ~/.bashrc
 source ~/.bashrc
 echo "[+] Done!"
+
+
+https://github.com/opsdisk/pagodo
