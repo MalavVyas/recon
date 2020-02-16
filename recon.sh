@@ -59,4 +59,15 @@ cd pagodo
 git clone https://github.com/opsdisk/pagodo.git
 cd pagodo
 pip3 install -r requirements.txt
+echo "[+] Installing MobSf"
+mkdir mobsf
+cd mobsf
+sudo apt-get install openjdk-8-jdk
+sudo apt install python3-venv python3-pip python3-dev build-essential libffi-dev libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev wkhtmltopdf
+
+git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
+cd Mobile-Security-Framework-MobSF
+./setup.sh 
+echo 'export JAVA_HOME=/usr/java/jre1.8.0_04' >> ~/.bashrc
+source ~/.bashrc
 echo "[+] Done!"
