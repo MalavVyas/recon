@@ -58,7 +58,5 @@ mkdir pagodo
 cd pagodo
 git clone https://github.com/opsdisk/pagodo.git
 cd pagodo
-virtualenv -p python3 .venv  # If using a virtual environment.
-source .venv/bin/activate  # If using a virtual environment.
 pip3 install -r requirements.txt
 echo "[+] Done!"
