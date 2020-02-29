@@ -71,3 +71,6 @@ cd Mobile-Security-Framework-MobSF
 echo 'export JAVA_HOME=/usr/java/jre1.8.0_04' >> ~/.bashrc
 source ~/.bashrc
 echo "[+] Done!"
+
+
+https://github.com/opsdisk/pagodo
